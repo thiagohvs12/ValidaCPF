@@ -12,7 +12,7 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
 
 }
 
@@ -22,4 +22,20 @@ body{
     padding: 15px;
     width: 100%;
     box-sizing: border-box;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container button{
+    padding: 15px;
+    background-color: #9b6262;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
 }
